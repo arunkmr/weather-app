@@ -1,0 +1,57 @@
+body{
+    color:red;
+    background-color: antiquewhite;
+    font-family:calibri; 
+    max-width:500px;
+    margin:0 auto;
+    padding: 0 16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: chocolate;
+    color:yellow;
+    border-top:1px solid gray;
+    width:720px; 
+    margin-top:16px;
+    padding: 16px 15px;
+}
+h1{
+    color:red;
+    font-size:64px;
+}
+header{
+    margin-top:16px;
+    margin-bottom:48px;
+}
+header a{
+    color:#888888;
+    text-decoration: none;
+    margin-right:16px;
+    
+}
+
+.portrait{
+    width:400px;
+    height:500px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px
+}
+
+button{
+    cursor:pointer;
+    border: 1px solid red;
+    background: red;
+    color:white;
+    padding:8px;
+}
