@@ -25,7 +25,7 @@ data.addEventListener('submit', e=>{
         parag2.textContent=""
     }else{
         //const url1 ='https://api.mapbox.com/geocoding/v5/mapbox.places/'+ search.value +'.json?access_token=pk.eyJ1IjoiYXJ1bmFtaXJ0aGEiLCJhIjoiY2w4Ym43cTZwMDh5NDNucGh1bjZha2U2ciJ9.-PzAZCVp9nZZOqwNgURICA'
-        fetch('http://localhost:3000/weather?address=!'+ search.value ).then ((response)=>{
+        fetch('/weather?address=!'+ search.value ).then ((response)=>{
             response.json().then((data)=>{
                 if(data.error){
                     console.log(data.error)
